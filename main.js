@@ -42,7 +42,7 @@ fetch(api)
                 var circle = L.circle([lat, log], {
                     color: 'red',
                     fillColor: '#f03',
-                    fillOpacity: 1,
+                    fillOpacity: 0.5,
                     radius: 5000
                 }).addTo(mymap);
 
@@ -52,7 +52,7 @@ fetch(api)
                 var circle = L.circle([lat, log], {
                     color: 'green',
                     fillColor: '#008000',
-                    fillOpacity: 1,
+                    fillOpacity: 0.5,
                     radius: 5200
                 }).addTo(mymap);
 
